@@ -1,0 +1,82 @@
+/*
+   Christian Mora
+   WorkDay Scheduler
+*/
+
+body {
+  background-image: url(book.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.jumbotron {
+  background-color: #4D9078be;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 10px;
+  width: 80%;
+}
+
+section {
+  margin-bottom: 5em;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+table input {
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  border-color: grey;
+  background-color: transparent;
+  padding: 10px;
+}
+tbody, thead {
+  background-color: rgba(255, 255, 255, 0.856);
+  
+  
+}
+
+th, td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+table .save-btn {
+  display: block;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.save-btn{
+  background-color: #4D9078be;
+}
+
+footer {
+  text-align: center;
+  padding-top: 5px;
+  background-color: white;
+  color: grey;
+  width: 100%;
+  position: fixed;
+  border-top: 4px solid rgb(153, 152, 152);
+  left: 0;
+  bottom: 0;
+}
